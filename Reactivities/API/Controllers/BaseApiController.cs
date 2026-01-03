@@ -15,8 +15,4 @@ namespace API.Controllers
             ?? throw new InvalidOperationException("IMediator service is unavavilable");
         
     }
-
-    internal interface IMediator
-    {
-    }
 }

@@ -13,8 +13,8 @@ export default function ActivityList() {
     <Box sx={{display: 'flex', flexDirection: 'column',gap: 3}}>
         {activities.map(activity => (
             <ActivityCard 
-            key={activity.id} 
-            activity={activity} 
+              key={activity.id} 
+              activity={activity} 
            
             />
         ))}
